@@ -20,14 +20,14 @@ export default function Button(props: ButtonProps) {
 
   if (direction === 'right') {
     return (
-      <Component className={clsx(defaultStyling, '-skew-x-45 ', className)} {...others}>
+      <Component className={clsx(defaultStyling, 'inline-block -skew-x-45 ', className)} {...others}>
         <span className="relative z-10 block skew-x-45">{children}</span>
       </Component>
     );
   }
 
   return (
-    <Component className={clsx(defaultStyling, 'skew-x-45', className)} {...others}>
+    <Component className={clsx(defaultStyling, 'inline-block skew-x-45', className)} {...others}>
       <span className="relative z-10 block -skew-x-45">{children}</span>
     </Component>
   );

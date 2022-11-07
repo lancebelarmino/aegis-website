@@ -17,7 +17,9 @@ export default function Hero() {
             </motion.p>
             <motion.hr className="mb-7 w-12" variants={fadeUpVariant} custom={3} />
             <motion.div variants={fadeUpVariant} custom={4}>
-              <Button className="ml-4">Buy Saegis Token</Button>
+              <Button className="ml-4" href="https://app.uniswap.org/#/swap?outputCurrency=0x3e4c87bf57d48935d1643A7b8a3383B928B040de" target="_blank" rel="noreferrer" component="a">
+                Buy $AEGIS Token
+              </Button>
             </motion.div>
             <HeroTarget className="absolute -top-16 right-0" />
           </div>

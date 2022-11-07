@@ -23,7 +23,9 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <Button className="w-full bg-gradient-to-b from-primary-800 to-primary-900 text-xl after:bg-primary-900">DApp</Button>
+          <Button className="w-full bg-gradient-to-b from-primary-800 to-primary-900 text-center text-xl after:bg-primary-900" component="a" href="https://app.aegisgg.app/" target="_blank" rel="noreferrer">
+            DApp
+          </Button>
         </li>
       </ul>
     </motion.nav>
@@ -48,7 +50,9 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <Button className="border-none bg-gradient-to-b from-primary-800 to-primary-900 after:bg-primary-900">DApp</Button>
+                <Button className="border-none bg-gradient-to-b from-primary-800 to-primary-900 after:bg-primary-900" component="a" href="https://app.aegisgg.app/" target="_blank" rel="noreferrer">
+                  DApp
+                </Button>
               </li>
             </ul>
           </nav>
